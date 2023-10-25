@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+    <title>Meu Formulário</title>
+    <style>
+        h2{
+            background-color: rgb(250, 250, 250);
+            
+        }
+        body{
+            background-color: black;
+        }
+        form{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Formulário de Exemplo</h2>
+
+<form action="/processar-formulario" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">CPF:</label>
+    <input type="endereço" id="endereço" name="endereço" required><br><br>
+
+    <label for="mensagem">Endereço:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
